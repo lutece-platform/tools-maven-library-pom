@@ -11,7 +11,7 @@
     <packaging>pom</packaging>
     <name>Lutece Library POM</name>
     <url>http://dev.lutece.paris.fr/</url>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     
     <properties>
 		<serverUrl>dev.lutece.paris.fr</serverUrl>
@@ -211,9 +211,9 @@
     </reporting>
     
 	<scm>
-		<connection>scm:svn:http://${serverUrl}/svn/lutece/tools/lutece-library-pom/trunk</connection>
-        <developerConnection>scm:svn:https://${serverUrl}/svn/lutece/tools/lutece-library-pom/trunk</developerConnection>
-        <url>http://${serverUrl}/viewvc/tools/lutece-library-pom/trunk</url>
+		<connection>scm:svn:http://dev.lutece.paris.fr/svn/lutece/tools/lutece-library-pom/tags/lutece-library-pom-1.0.0</connection>
+        <developerConnection>scm:svn:https://dev.lutece.paris.fr/svn/lutece/tools/lutece-library-pom/tags/lutece-library-pom-1.0.0</developerConnection>
+        <url>http://dev.lutece.paris.fr/viewvc/tools/lutece-library-pom/tags/lutece-library-pom-1.0.0</url>
 	</scm>
 	
 	<distributionManagement>
