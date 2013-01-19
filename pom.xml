@@ -78,8 +78,8 @@
             </plugin>
             <plugin>
                 <groupId>fr.paris.lutece.tools</groupId>
-                <artifactId>maven-lutece-plugin</artifactId>
-                <version>3.0.1</version>
+                <artifactId>lutece-maven-plugin</artifactId>
+                <version>3.0.2</version>
                 <extensions>true</extensions>
                 <configuration>
                     <localConfDirectory>${localConfDirectory}</localConfDirectory>
