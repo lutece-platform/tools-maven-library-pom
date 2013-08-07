@@ -3,7 +3,7 @@
     <parent>
         <artifactId>lutece-global-pom</artifactId>
         <groupId>fr.paris.lutece.tools</groupId>
-        <version>2.3</version>
+        <version>2.4</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>fr.paris.lutece.tools</groupId>
@@ -79,7 +79,7 @@
             <plugin>
                 <groupId>fr.paris.lutece.tools</groupId>
                 <artifactId>lutece-maven-plugin</artifactId>
-                <version>3.0.3</version>
+                <version>3.0.4</version>
                 <extensions>true</extensions>
                 <configuration>
                     <localConfDirectory>${localConfDirectory}</localConfDirectory>
@@ -90,7 +90,7 @@
             <extension>
                 <groupId>fr.paris.lutece.tools</groupId>
                 <artifactId>build-tools</artifactId>
-                <version>0.13</version>
+                <version>0.14</version>
             </extension>
         </extensions>
         <pluginManagement>
@@ -103,7 +103,7 @@
 			          	<dependency>
 			            	<groupId>fr.paris.lutece.tools</groupId>
 			                <artifactId>build-tools</artifactId>
-			                <version>0.13</version>
+			                <version>0.14</version>
 			        	</dependency>
 				  </dependencies>
 		        </plugin>
