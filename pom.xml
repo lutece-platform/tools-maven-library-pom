@@ -92,6 +92,12 @@
                 <artifactId>build-tools</artifactId>
                 <version>0.14</version>
             </extension>
+			<!-- Enabling the use of FTP -->
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ftp</artifactId>
+				<version>2.2</version>
+		    </extension>
         </extensions>
         <pluginManagement>
       		<plugins>
