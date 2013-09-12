@@ -241,5 +241,11 @@
 			<id>lutece_snapshots_repository</id>
 			<url>http://${serverUrl}/nexus/content/repositories/lutece_snapshots_repository</url>
 		</snapshotRepository>
+		
+		<site>
+            <id>lutece_ftp_site_maven</id>
+            <url>ftp://site-deploy.dev.lutece.paris.fr/site/plugins</url>
+        </site>
+
     </distributionManagement>
 </project>
