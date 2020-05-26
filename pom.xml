@@ -43,6 +43,7 @@
     </build>
 
     <properties>
+        <sonar.sources>pom.xml,src/java</sonar.sources> <!-- Override the global pom value to remove the webapp path -->
         <jiraProjectName>LIBPOM</jiraProjectName>
         <jiraComponentId>16152</jiraComponentId>
     </properties>
